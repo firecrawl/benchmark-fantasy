@@ -1,0 +1,182 @@
+{
+  "maxTurns": 30,
+  "timeoutMs": 600000,
+  "disallowBuiltins": [
+    "Task",
+    "Agent",
+    "Bash",
+    "Edit",
+    "Write",
+    "NotebookEdit",
+    "Glob",
+    "Grep",
+    "LSP",
+    "Skill",
+    "Workflow",
+    "Monitor",
+    "CronCreate",
+    "CronDelete",
+    "CronList",
+    "DesignSync",
+    "EnterWorktree",
+    "ExitWorktree",
+    "ListAgents",
+    "PushNotification",
+    "ReportFindings",
+    "ScheduleWakeup",
+    "SendMessage",
+    "ShareOnboardingGuide",
+    "TaskOutput",
+    "TaskStop",
+    "EnterPlanMode",
+    "ExitPlanMode",
+    "AskUserQuestion",
+    "TodoWrite",
+    "RemoteTrigger"
+  ],
+  "arms": {
+    "web": {
+      "label": "Claude + web search (floor)",
+      "mcp": [],
+      "tools": [
+        "WebSearch",
+        "WebFetch"
+      ],
+      "inventory": [
+        "WebSearch: search the web; returns ranked results with titles, URLs and snippets.",
+        "WebFetch: fetch one URL and extract what a prompt asks for from its content."
+      ]
+    },
+    "firecrawl_noalex": {
+      "label": "Firecrawl without Alexandria: same Firecrawl tools, key and limits; Alexandria discovery and execution blocked by a PreToolUse hook",
+      "mcp": [
+        "firecrawl"
+      ],
+      "tools": [
+        "WebSearch",
+        "WebFetch",
+        "mcp__firecrawl__firecrawl_search",
+        "mcp__firecrawl__firecrawl_scrape",
+        "mcp__firecrawl__firecrawl_map"
+      ],
+      "disallow": [
+        "mcp__firecrawl__firecrawl_agent",
+        "mcp__firecrawl__firecrawl_agent_status",
+        "mcp__firecrawl__firecrawl_check_crawl_status",
+        "mcp__firecrawl__firecrawl_crawl",
+        "mcp__firecrawl__firecrawl_credit_usage",
+        "mcp__firecrawl__firecrawl_developer_search",
+        "mcp__firecrawl__firecrawl_feedback",
+        "mcp__firecrawl__firecrawl_find_tools",
+        "mcp__firecrawl__firecrawl_gov_search",
+        "mcp__firecrawl__firecrawl_interact",
+        "mcp__firecrawl__firecrawl_interact_stop",
+        "mcp__firecrawl__firecrawl_monitor_check",
+        "mcp__firecrawl__firecrawl_monitor_checks",
+        "mcp__firecrawl__firecrawl_monitor_create",
+        "mcp__firecrawl__firecrawl_monitor_delete",
+        "mcp__firecrawl__firecrawl_monitor_get",
+        "mcp__firecrawl__firecrawl_monitor_list",
+        "mcp__firecrawl__firecrawl_monitor_run",
+        "mcp__firecrawl__firecrawl_monitor_update",
+        "mcp__firecrawl__firecrawl_parse",
+        "mcp__firecrawl__firecrawl_research_inspect_paper",
+        "mcp__firecrawl__firecrawl_research_read_paper",
+        "mcp__firecrawl__firecrawl_research_related_papers",
+        "mcp__firecrawl__firecrawl_research_search_papers",
+        "mcp__firecrawl__firecrawl_search_feedback"
+      ],
+      "inventory": [
+        "WebSearch: search the web; returns ranked results with titles, URLs and snippets.",
+        "WebFetch: fetch one URL and extract what a prompt asks for from its content.",
+        "firecrawl_search: search the web through Firecrawl (Alexandria data tools are disabled in this session).",
+        "firecrawl_scrape: retrieve one URL as markdown (Alexandria data tools are disabled in this session).",
+        "firecrawl_map: list the URLs under one website."
+      ],
+      "hook": "hooks/block_alexandria.py"
+    },
+    "firecrawl_alex": {
+      "label": "Firecrawl with Alexandria: Firecrawl tools incl. Alexandria; no extra guidance (only the server's own instructions, like every setup)",
+      "mcp": [
+        "firecrawl"
+      ],
+      "tools": [
+        "WebSearch",
+        "WebFetch",
+        "mcp__firecrawl__firecrawl_search",
+        "mcp__firecrawl__firecrawl_scrape",
+        "mcp__firecrawl__firecrawl_map",
+        "mcp__firecrawl__firecrawl_find_tools"
+      ],
+      "disallow": [
+        "mcp__firecrawl__firecrawl_search_feedback",
+        "mcp__firecrawl__firecrawl_feedback",
+        "mcp__firecrawl__firecrawl_crawl",
+        "mcp__firecrawl__firecrawl_check_crawl_status",
+        "mcp__firecrawl__firecrawl_agent",
+        "mcp__firecrawl__firecrawl_agent_status",
+        "mcp__firecrawl__firecrawl_interact",
+        "mcp__firecrawl__firecrawl_interact_stop",
+        "mcp__firecrawl__firecrawl_parse",
+        "mcp__firecrawl__firecrawl_monitor_create",
+        "mcp__firecrawl__firecrawl_monitor_list",
+        "mcp__firecrawl__firecrawl_monitor_get",
+        "mcp__firecrawl__firecrawl_monitor_update",
+        "mcp__firecrawl__firecrawl_monitor_delete",
+        "mcp__firecrawl__firecrawl_monitor_run",
+        "mcp__firecrawl__firecrawl_monitor_checks",
+        "mcp__firecrawl__firecrawl_monitor_check",
+        "mcp__firecrawl__firecrawl_research_search_papers",
+        "mcp__firecrawl__firecrawl_research_inspect_paper",
+        "mcp__firecrawl__firecrawl_research_related_papers",
+        "mcp__firecrawl__firecrawl_research_read_paper",
+        "mcp__firecrawl__firecrawl_developer_search",
+        "mcp__firecrawl__firecrawl_gov_search",
+        "mcp__firecrawl__firecrawl_credit_usage"
+      ],
+      "inventory": [
+        "WebSearch: search the web; returns ranked results with titles, URLs and snippets.",
+        "WebFetch: fetch one URL and extract what a prompt asks for from its content.",
+        "firecrawl_search: search the web through Firecrawl; also returns matching Alexandria data tools (typed data providers) for the query.",
+        "firecrawl_scrape: retrieve one URL as markdown, or run an Alexandria data tool by provider and capability.",
+        "firecrawl_map: list the URLs under one website.",
+        "firecrawl_find_tools: browse the Alexandria catalogue of data providers and read a tool's contract."
+      ]
+    },
+    "flaim": {
+      "label": "Claude + web search + Flaim Fantasy (hosted MCP)",
+      "mcp": [
+        "flaim"
+      ],
+      "tools": [
+        "WebSearch",
+        "WebFetch",
+        "mcp__flaim__get_user_session",
+        "mcp__flaim__get_league_info",
+        "mcp__flaim__get_roster",
+        "mcp__flaim__get_matchups",
+        "mcp__flaim__get_standings",
+        "mcp__flaim__get_free_agents",
+        "mcp__flaim__get_players",
+        "mcp__flaim__get_transactions",
+        "mcp__flaim__get_draft",
+        "mcp__flaim__get_ancient_history"
+      ],
+      "disallow": [
+        "mcp__flaim__refresh_leagues"
+      ],
+      "inventory": [
+        "WebSearch: search the web; returns ranked results with titles, URLs and snippets.",
+        "WebFetch: fetch one URL and extract what a prompt asks for from its content.",
+        "Flaim fantasy league tools (the user's connected ESPN, Yahoo and Sleeper leagues): get_user_session (your leagues), get_league_info (settings, scoring, roster slots, teams), get_roster, get_matchups, get_standings, get_free_agents, get_players, get_transactions, get_draft, get_ancient_history (past seasons)."
+      ]
+    }
+  },
+  "order": [
+    "web",
+    "firecrawl_noalex",
+    "firecrawl_alex",
+    "flaim",
+    "fantasypros"
+  ]
+}

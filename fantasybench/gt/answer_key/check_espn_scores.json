@@ -1,0 +1,1114 @@
+{
+ "checked_at": "2026-10-15T17:11:21+00:00",
+ "games_in_key": 79,
+ "games_checked": 79,
+ "agree": 79,
+ "rows": [
+  {
+   "week": 1,
+   "away": "NE",
+   "home": "SEA",
+   "nflverse": [
+    10,
+    13
+   ],
+   "espn": [
+    10,
+    13
+   ],
+   "agree": true
+  },
+  {
+   "week": 1,
+   "away": "SF",
+   "home": "LA",
+   "nflverse": [
+    27,
+    7
+   ],
+   "espn": [
+    27,
+    7
+   ],
+   "agree": true
+  },
+  {
+   "week": 1,
+   "away": "TB",
+   "home": "CIN",
+   "nflverse": [
+    27,
+    33
+   ],
+   "espn": [
+    27,
+    33
+   ],
+   "agree": true
+  },
+  {
+   "week": 1,
+   "away": "NO",
+   "home": "DET",
+   "nflverse": [
+    30,
+    31
+   ],
+   "espn": [
+    30,
+    31
+   ],
+   "agree": true
+  },
+  {
+   "week": 1,
+   "away": "NYJ",
+   "home": "TEN",
+   "nflverse": [
+    23,
+    10
+   ],
+   "espn": [
+    23,
+    10
+   ],
+   "agree": true
+  },
+  {
+   "week": 1,
+   "away": "BAL",
+   "home": "IND",
+   "nflverse": [
+    41,
+    23
+   ],
+   "espn": [
+    41,
+    23
+   ],
+   "agree": true
+  },
+  {
+   "week": 1,
+   "away": "ATL",
+   "home": "PIT",
+   "nflverse": [
+    13,
+    20
+   ],
+   "espn": [
+    13,
+    20
+   ],
+   "agree": true
+  },
+  {
+   "week": 1,
+   "away": "CHI",
+   "home": "CAR",
+   "nflverse": [
+    59,
+    37
+   ],
+   "espn": [
+    59,
+    37
+   ],
+   "agree": true
+  },
+  {
+   "week": 1,
+   "away": "CLE",
+   "home": "JAX",
+   "nflverse": [
+    10,
+    34
+   ],
+   "espn": [
+    10,
+    34
+   ],
+   "agree": true
+  },
+  {
+   "week": 1,
+   "away": "BUF",
+   "home": "HOU",
+   "nflverse": [
+    36,
+    31
+   ],
+   "espn": [
+    36,
+    31
+   ],
+   "agree": true
+  },
+  {
+   "week": 1,
+   "away": "MIA",
+   "home": "LV",
+   "nflverse": [
+    13,
+    27
+   ],
+   "espn": [
+    13,
+    27
+   ],
+   "agree": true
+  },
+  {
+   "week": 1,
+   "away": "GB",
+   "home": "MIN",
+   "nflverse": [
+    22,
+    39
+   ],
+   "espn": [
+    22,
+    39
+   ],
+   "agree": true
+  },
+  {
+   "week": 1,
+   "away": "WAS",
+   "home": "PHI",
+   "nflverse": [
+    22,
+    24
+   ],
+   "espn": [
+    22,
+    24
+   ],
+   "agree": true
+  },
+  {
+   "week": 1,
+   "away": "ARI",
+   "home": "LAC",
+   "nflverse": [
+    26,
+    14
+   ],
+   "espn": [
+    26,
+    14
+   ],
+   "agree": true
+  },
+  {
+   "week": 1,
+   "away": "DAL",
+   "home": "NYG",
+   "nflverse": [
+    20,
+    28
+   ],
+   "espn": [
+    20,
+    28
+   ],
+   "agree": true
+  },
+  {
+   "week": 1,
+   "away": "DEN",
+   "home": "KC",
+   "nflverse": [
+    10,
+    31
+   ],
+   "espn": [
+    10,
+    31
+   ],
+   "agree": true
+  },
+  {
+   "week": 2,
+   "away": "DET",
+   "home": "BUF",
+   "nflverse": [
+    31,
+    41
+   ],
+   "espn": [
+    31,
+    41
+   ],
+   "agree": true
+  },
+  {
+   "week": 2,
+   "away": "CAR",
+   "home": "ATL",
+   "nflverse": [
+    34,
+    3
+   ],
+   "espn": [
+    34,
+    3
+   ],
+   "agree": true
+  },
+  {
+   "week": 2,
+   "away": "MIN",
+   "home": "CHI",
+   "nflverse": [
+    9,
+    3
+   ],
+   "espn": [
+    9,
+    3
+   ],
+   "agree": true
+  },
+  {
+   "week": 2,
+   "away": "PHI",
+   "home": "TEN",
+   "nflverse": [
+    24,
+    20
+   ],
+   "espn": [
+    24,
+    20
+   ],
+   "agree": true
+  },
+  {
+   "week": 2,
+   "away": "PIT",
+   "home": "NE",
+   "nflverse": [
+    3,
+    20
+   ],
+   "espn": [
+    3,
+    20
+   ],
+   "agree": true
+  },
+  {
+   "week": 2,
+   "away": "GB",
+   "home": "NYJ",
+   "nflverse": [
+    20,
+    17
+   ],
+   "espn": [
+    20,
+    17
+   ],
+   "agree": true
+  },
+  {
+   "week": 2,
+   "away": "CLE",
+   "home": "TB",
+   "nflverse": [
+    23,
+    19
+   ],
+   "espn": [
+    23,
+    19
+   ],
+   "agree": true
+  },
+  {
+   "week": 2,
+   "away": "NO",
+   "home": "BAL",
+   "nflverse": [
+    24,
+    17
+   ],
+   "espn": [
+    24,
+    17
+   ],
+   "agree": true
+  },
+  {
+   "week": 2,
+   "away": "CIN",
+   "home": "HOU",
+   "nflverse": [
+    20,
+    6
+   ],
+   "espn": [
+    20,
+    6
+   ],
+   "agree": true
+  },
+  {
+   "week": 2,
+   "away": "JAX",
+   "home": "DEN",
+   "nflverse": [
+    13,
+    20
+   ],
+   "espn": [
+    13,
+    20
+   ],
+   "agree": true
+  },
+  {
+   "week": 2,
+   "away": "LV",
+   "home": "LAC",
+   "nflverse": [
+    26,
+    14
+   ],
+   "espn": [
+    26,
+    14
+   ],
+   "agree": true
+  },
+  {
+   "week": 2,
+   "away": "WAS",
+   "home": "DAL",
+   "nflverse": [
+    20,
+    37
+   ],
+   "espn": [
+    20,
+    37
+   ],
+   "agree": true
+  },
+  {
+   "week": 2,
+   "away": "SEA",
+   "home": "ARI",
+   "nflverse": [
+    31,
+    7
+   ],
+   "espn": [
+    31,
+    7
+   ],
+   "agree": true
+  },
+  {
+   "week": 2,
+   "away": "MIA",
+   "home": "SF",
+   "nflverse": [
+    13,
+    35
+   ],
+   "espn": [
+    13,
+    35
+   ],
+   "agree": true
+  },
+  {
+   "week": 2,
+   "away": "IND",
+   "home": "KC",
+   "nflverse": [
+    30,
+    33
+   ],
+   "espn": [
+    30,
+    33
+   ],
+   "agree": true
+  },
+  {
+   "week": 2,
+   "away": "NYG",
+   "home": "LA",
+   "nflverse": [
+    6,
+    28
+   ],
+   "espn": [
+    6,
+    28
+   ],
+   "agree": true
+  },
+  {
+   "week": 3,
+   "away": "ATL",
+   "home": "GB",
+   "nflverse": [
+    35,
+    14
+   ],
+   "espn": [
+    35,
+    14
+   ],
+   "agree": true
+  },
+  {
+   "week": 3,
+   "away": "LAC",
+   "home": "BUF",
+   "nflverse": [
+    16,
+    24
+   ],
+   "espn": [
+    16,
+    24
+   ],
+   "agree": true
+  },
+  {
+   "week": 3,
+   "away": "CAR",
+   "home": "CLE",
+   "nflverse": [
+    18,
+    21
+   ],
+   "espn": [
+    18,
+    21
+   ],
+   "agree": true
+  },
+  {
+   "week": 3,
+   "away": "NYJ",
+   "home": "DET",
+   "nflverse": [
+    24,
+    31
+   ],
+   "espn": [
+    24,
+    31
+   ],
+   "agree": true
+  },
+  {
+   "week": 3,
+   "away": "HOU",
+   "home": "IND",
+   "nflverse": [
+    17,
+    19
+   ],
+   "espn": [
+    17,
+    19
+   ],
+   "agree": true
+  },
+  {
+   "week": 3,
+   "away": "KC",
+   "home": "MIA",
+   "nflverse": [
+    24,
+    10
+   ],
+   "espn": [
+    24,
+    10
+   ],
+   "agree": true
+  },
+  {
+   "week": 3,
+   "away": "TEN",
+   "home": "NYG",
+   "nflverse": [
+    7,
+    12
+   ],
+   "espn": [
+    7,
+    12
+   ],
+   "agree": true
+  },
+  {
+   "week": 3,
+   "away": "CIN",
+   "home": "PIT",
+   "nflverse": [
+    27,
+    30
+   ],
+   "espn": [
+    27,
+    30
+   ],
+   "agree": true
+  },
+  {
+   "week": 3,
+   "away": "SEA",
+   "home": "WAS",
+   "nflverse": [
+    31,
+    33
+   ],
+   "espn": [
+    31,
+    33
+   ],
+   "agree": true
+  },
+  {
+   "week": 3,
+   "away": "NE",
+   "home": "JAX",
+   "nflverse": [
+    6,
+    35
+   ],
+   "espn": [
+    6,
+    35
+   ],
+   "agree": true
+  },
+  {
+   "week": 3,
+   "away": "ARI",
+   "home": "SF",
+   "nflverse": [
+    30,
+    36
+   ],
+   "espn": [
+    30,
+    36
+   ],
+   "agree": true
+  },
+  {
+   "week": 3,
+   "away": "MIN",
+   "home": "TB",
+   "nflverse": [
+    23,
+    16
+   ],
+   "espn": [
+    23,
+    16
+   ],
+   "agree": true
+  },
+  {
+   "week": 3,
+   "away": "BAL",
+   "home": "DAL",
+   "nflverse": [
+    34,
+    31
+   ],
+   "espn": [
+    34,
+    31
+   ],
+   "agree": true
+  },
+  {
+   "week": 3,
+   "away": "LV",
+   "home": "NO",
+   "nflverse": [
+    35,
+    27
+   ],
+   "espn": [
+    35,
+    27
+   ],
+   "agree": true
+  },
+  {
+   "week": 3,
+   "away": "LA",
+   "home": "DEN",
+   "nflverse": [
+    26,
+    30
+   ],
+   "espn": [
+    26,
+    30
+   ],
+   "agree": true
+  },
+  {
+   "week": 3,
+   "away": "PHI",
+   "home": "CHI",
+   "nflverse": [
+    7,
+    27
+   ],
+   "espn": [
+    7,
+    27
+   ],
+   "agree": true
+  },
+  {
+   "week": 4,
+   "away": "PIT",
+   "home": "CLE",
+   "nflverse": [
+    24,
+    27
+   ],
+   "espn": [
+    24,
+    27
+   ],
+   "agree": true
+  },
+  {
+   "week": 4,
+   "away": "IND",
+   "home": "WAS",
+   "nflverse": [
+    30,
+    13
+   ],
+   "espn": [
+    30,
+    13
+   ],
+   "agree": true
+  },
+  {
+   "week": 4,
+   "away": "NE",
+   "home": "BUF",
+   "nflverse": [
+    29,
+    26
+   ],
+   "espn": [
+    29,
+    26
+   ],
+   "agree": true
+  },
+  {
+   "week": 4,
+   "away": "NYJ",
+   "home": "CHI",
+   "nflverse": [
+    12,
+    23
+   ],
+   "espn": [
+    12,
+    23
+   ],
+   "agree": true
+  },
+  {
+   "week": 4,
+   "away": "JAX",
+   "home": "CIN",
+   "nflverse": [
+    22,
+    17
+   ],
+   "espn": [
+    22,
+    17
+   ],
+   "agree": true
+  },
+  {
+   "week": 4,
+   "away": "ARI",
+   "home": "NYG",
+   "nflverse": [
+    24,
+    36
+   ],
+   "espn": [
+    24,
+    36
+   ],
+   "agree": true
+  },
+  {
+   "week": 4,
+   "away": "LA",
+   "home": "PHI",
+   "nflverse": [
+    24,
+    20
+   ],
+   "espn": [
+    24,
+    20
+   ],
+   "agree": true
+  },
+  {
+   "week": 4,
+   "away": "GB",
+   "home": "TB",
+   "nflverse": [
+    17,
+    14
+   ],
+   "espn": [
+    17,
+    14
+   ],
+   "agree": true
+  },
+  {
+   "week": 4,
+   "away": "TEN",
+   "home": "BAL",
+   "nflverse": [
+    18,
+    24
+   ],
+   "espn": [
+    18,
+    24
+   ],
+   "agree": true
+  },
+  {
+   "week": 4,
+   "away": "DAL",
+   "home": "HOU",
+   "nflverse": [
+    34,
+    30
+   ],
+   "espn": [
+    34,
+    30
+   ],
+   "agree": true
+  },
+  {
+   "week": 4,
+   "away": "MIA",
+   "home": "MIN",
+   "nflverse": [
+    10,
+    15
+   ],
+   "espn": [
+    10,
+    15
+   ],
+   "agree": true
+  },
+  {
+   "week": 4,
+   "away": "KC",
+   "home": "LV",
+   "nflverse": [
+    30,
+    27
+   ],
+   "espn": [
+    30,
+    27
+   ],
+   "agree": true
+  },
+  {
+   "week": 4,
+   "away": "DEN",
+   "home": "SF",
+   "nflverse": [
+    14,
+    24
+   ],
+   "espn": [
+    14,
+    24
+   ],
+   "agree": true
+  },
+  {
+   "week": 4,
+   "away": "LAC",
+   "home": "SEA",
+   "nflverse": [
+    23,
+    30
+   ],
+   "espn": [
+    23,
+    30
+   ],
+   "agree": true
+  },
+  {
+   "week": 4,
+   "away": "DET",
+   "home": "CAR",
+   "nflverse": [
+    26,
+    32
+   ],
+   "espn": [
+    26,
+    32
+   ],
+   "agree": true
+  },
+  {
+   "week": 4,
+   "away": "ATL",
+   "home": "NO",
+   "nflverse": [
+    45,
+    24
+   ],
+   "espn": [
+    45,
+    24
+   ],
+   "agree": true
+  },
+  {
+   "week": 5,
+   "away": "TB",
+   "home": "DAL",
+   "nflverse": [
+    24,
+    16
+   ],
+   "espn": [
+    24,
+    16
+   ],
+   "agree": true
+  },
+  {
+   "week": 5,
+   "away": "PHI",
+   "home": "JAX",
+   "nflverse": [
+    17,
+    19
+   ],
+   "espn": [
+    17,
+    19
+   ],
+   "agree": true
+  },
+  {
+   "week": 5,
+   "away": "CHI",
+   "home": "GB",
+   "nflverse": [
+    7,
+    31
+   ],
+   "espn": [
+    7,
+    31
+   ],
+   "agree": true
+  },
+  {
+   "week": 5,
+   "away": "HOU",
+   "home": "TEN",
+   "nflverse": [
+    26,
+    3
+   ],
+   "espn": [
+    26,
+    3
+   ],
+   "agree": true
+  },
+  {
+   "week": 5,
+   "away": "CIN",
+   "home": "MIA",
+   "nflverse": [
+    31,
+    24
+   ],
+   "espn": [
+    31,
+    24
+   ],
+   "agree": true
+  },
+  {
+   "week": 5,
+   "away": "LV",
+   "home": "NE",
+   "nflverse": [
+    17,
+    45
+   ],
+   "espn": [
+    17,
+    45
+   ],
+   "agree": true
+  },
+  {
+   "week": 5,
+   "away": "MIN",
+   "home": "NO",
+   "nflverse": [
+    23,
+    13
+   ],
+   "espn": [
+    23,
+    13
+   ],
+   "agree": true
+  },
+  {
+   "week": 5,
+   "away": "CLE",
+   "home": "NYJ",
+   "nflverse": [
+    12,
+    17
+   ],
+   "espn": [
+    12,
+    17
+   ],
+   "agree": true
+  },
+  {
+   "week": 5,
+   "away": "IND",
+   "home": "PIT",
+   "nflverse": [
+    22,
+    34
+   ],
+   "espn": [
+    22,
+    34
+   ],
+   "agree": true
+  },
+  {
+   "week": 5,
+   "away": "NYG",
+   "home": "WAS",
+   "nflverse": [
+    27,
+    27
+   ],
+   "espn": [
+    27,
+    27
+   ],
+   "agree": true
+  },
+  {
+   "week": 5,
+   "away": "DEN",
+   "home": "LAC",
+   "nflverse": [
+    23,
+    17
+   ],
+   "espn": [
+    23,
+    17
+   ],
+   "agree": true
+  },
+  {
+   "week": 5,
+   "away": "DET",
+   "home": "ARI",
+   "nflverse": [
+    45,
+    21
+   ],
+   "espn": [
+    45,
+    21
+   ],
+   "agree": true
+  },
+  {
+   "week": 5,
+   "away": "SF",
+   "home": "SEA",
+   "nflverse": [
+    32,
+    29
+   ],
+   "espn": [
+    32,
+    29
+   ],
+   "agree": true
+  },
+  {
+   "week": 5,
+   "away": "BAL",
+   "home": "ATL",
+   "nflverse": [
+    30,
+    23
+   ],
+   "espn": [
+    30,
+    23
+   ],
+   "agree": true
+  },
+  {
+   "week": 5,
+   "away": "BUF",
+   "home": "LA",
+   "nflverse": [
+    37,
+    34
+   ],
+   "espn": [
+    37,
+    34
+   ],
+   "agree": true
+  }
+ ]
+}

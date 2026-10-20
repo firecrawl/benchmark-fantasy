@@ -1,0 +1,46 @@
+{
+ "recorded_at": "2026-10-15T21:30:45+00:00",
+ "note": "Reference files read by grade.py live_context (schedule, player stats, rosters) and by the fact key. grading.json does not hash these; recorded here after the locked-grader review. File modification times show when each was downloaded.",
+ "files": {
+  "data/ref/games.csv": {
+   "sha256": "aca28b93f3ece34a9925a407e5e806bc29152878d4178680b1701d18cc8addeb",
+   "modified_utc": "2026-10-14T15:40:57+00:00"
+  },
+  "data/ref/stats_player_week_2026.csv": {
+   "sha256": "bbca0279dc333ebc43877d3dc4cf7433cb3d174fda8f04509f86227ef9474619",
+   "modified_utc": "2026-10-14T15:40:55+00:00"
+  },
+  "data/ref/roster_2026.csv": {
+   "sha256": "c4b854e3865952a108c5aed26bab347967a1300a61225d630739be9d42e26218",
+   "modified_utc": "2026-10-14T15:40:57+00:00"
+  },
+  "data/ref/injuries_2026.csv": {
+   "sha256": "0aeca7dcb95b736081e22319c16edb9736a4f4b24a7851f23098dfbc822bbad1",
+   "modified_utc": "2026-10-14T15:40:55+00:00"
+  },
+  "data/ref/snap_counts_2026.csv": {
+   "sha256": "e4d877bf670c5bc47a1ac863cc3a28a0f4b2f926872cc03666b27b31d6ea332b",
+   "modified_utc": "2026-10-14T15:40:55+00:00"
+  },
+  "data/ref/stats_team_week_2026.csv": {
+   "sha256": "354c2f6e50fbe7431b3034d0ef815a76a98c322bff9989bea733b5d4d6c9b8d0",
+   "modified_utc": "2026-10-14T15:40:57+00:00"
+  },
+  "data/ref/ngs_receiving.csv.gz": {
+   "sha256": "503415e7b31604c0de6abffa6f7d984b3024888e272bf475f37dc5dc9ea570fc",
+   "modified_utc": "2026-10-14T15:40:55+00:00"
+  },
+  "data/ref/ngs_rushing.csv.gz": {
+   "sha256": "81ea74ebe61feacb4cb3d819ca6f18f6bb0081e7c9a4cd53d2c10cbfc741baca",
+   "modified_utc": "2026-10-14T15:40:56+00:00"
+  },
+  "data/ref/ngs_passing.csv.gz": {
+   "sha256": "70d4b6195e4500e23a56181b1e8fd0878b108a305272898e0300b13088419269",
+   "modified_utc": "2026-10-14T15:40:56+00:00"
+  },
+  "data/ref/advstats_week_rec_2026.csv": {
+   "sha256": "b0f611bb271b2aed246ccc4577c7491e593e1343757807b65c116b867c259dbe",
+   "modified_utc": "2026-10-14T15:40:56+00:00"
+  }
+ }
+}
